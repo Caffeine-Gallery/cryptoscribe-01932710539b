@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #1a1a1a;
+}
+
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.card-subtitle {
+    color: #6c757d;
+}
+
+.card-text {
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #0077cc;
+    border-color: #0077cc;
+}
+
+.btn-primary:hover {
+    background-color: #005fa3;
+    border-color: #005fa3;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+#editor {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.ql-toolbar.ql-snow {
+    border: 1px solid #ced4da;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+}
+
+.ql-container.ql-snow {
+    border: 1px solid #ced4da;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+}
